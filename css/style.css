@@ -1,0 +1,49 @@
+@charset "utf-8";
+#heading{
+	width:100%;
+	text-align:center;
+}
+
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+	max-width:400px;
+    /* inline-block space fix */
+    margin-right:-4px;
+	
+}
+label{
+	font-size: 1.5rem !important;	
+}
+
+p{
+	font-size:30px;		
+}
+
+table th tr{
+	font-size:25px;
+	border:solid;
+	text-align:center;
+}
+input[type=number]{
+	font-size:1.5rem;	
+}
+#loading{
+	margin: 100px auto;	
+	float:none;
+	text-align:center;
+	
+}
+.centered{
+	text-align:center;	
+}
+select{
+	display:inline-block;	
+}
+#picked_classes{
+	width: 60px;	
+}
